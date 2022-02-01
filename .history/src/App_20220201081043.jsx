@@ -11,7 +11,8 @@ import DOM from "./components/DOM manipulation.jsx"
 import Window from "./components/window.jsx"
 
 function App() {
-  
+
+  setInterval(() => {console.log(new Date())}, 2000)
 
   return (
     <Router>

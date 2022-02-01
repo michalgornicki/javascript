@@ -8,10 +8,8 @@ import Numbers from "./components/numbers.jsx"
 import Loops from "./components/loops.jsx"
 import Async from "./components/async.jsx"
 import DOM from "./components/DOM manipulation.jsx"
-import Window from "./components/window.jsx"
 
 function App() {
-  
 
   return (
     <Router>
@@ -25,8 +23,8 @@ function App() {
       <Link className="link-style mx-3" to="/Variables">Variables</Link>
       <Link className="link-style mx-3" to="/Loops">Loops</Link>
       <Link className="link-style mx-3" to="/Async">Async</Link>
-      <Link className="link-style mx-3" to="/DOM">DOM</Link>
-      <Link className="link-style mx-3" to="/Window">Window</Link>
+      <Link className="link-style mx-3" to="/DOM">DOM/Listeners</Link>
+      <Link className="link-style mx-3" to="/DOM">Window object</Link>
 
 
       </div>
@@ -38,7 +36,7 @@ function App() {
           <Route path="/Loops" element={<Loops />} />
           <Route path="/Async" element={<Async />} />
           <Route path="/DOM" element={<DOM />} />
-          <Route path="/Window" element={<Window />} />
+          <Route path="/Window" element={<DOM />} />
         </Routes>
 
 

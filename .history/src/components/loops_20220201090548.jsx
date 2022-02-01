@@ -24,8 +24,7 @@ const Loops = () => {
       <div className="js-item h5">
         {" "}
         <span className="">{`Loop do while`} -</span>
-        <span className="text-pink"> {`do`} <br /> {`{text += "The number is " + i;`} <br /> {`i++;}`} {`while (i < 10)`};
-         </span> <br /> (This loop will execute the code block once, before checking if the condition is true.)
+        <span className="text-pink"> {`while (i < 10)`} <br /> {`{text += "The number is " + i;`} <br /> {`i++;}`} {`while (i < 10)`} <br /> </span> <br /> 
       </div>
     </div>
   );

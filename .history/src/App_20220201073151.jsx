@@ -11,7 +11,6 @@ import DOM from "./components/DOM manipulation.jsx"
 import Window from "./components/window.jsx"
 
 function App() {
-  
 
   return (
     <Router>
