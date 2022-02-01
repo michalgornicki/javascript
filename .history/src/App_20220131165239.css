@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif!important;
+    overflow-x: hidden;
+    padding-bottom: 20vh;
+}
+
+.js-item{
+
+}
+
+.js-item:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.text-pink{
+    color:rgb(255, 0, 212)!important;
+}
+
+.link-nostyle{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media only screen and (max-device-width: 600px), (max-width: 600px) {
+
+    .js-item{
+        width: 95%;
+    }
+
+}

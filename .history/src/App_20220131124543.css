@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif!important;
+    overflow-x: hidden;
+}
+
+.js-item{
+    color:rgb(121, 121, 121);
+    transition: 0.5s;
+}
+
+.js-item:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+}
+
+.js-item:nth-child(2n){
+}
