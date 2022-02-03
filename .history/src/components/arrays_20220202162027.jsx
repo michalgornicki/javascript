@@ -6,10 +6,8 @@ const Arrays = () => {
     { brand: "Porsche", topspeed: "302" },
   ];
 
-  const functionOne = () => {console.log("first")}
-  const functionTwo = () => {console.log("second")}
-
-  functionOne(functionTwo)
+  const functionOne = () => {console.log()}
+  const functionTwo = () => {}
 
   return (
     <div className="container">

@@ -31,7 +31,7 @@ const Async = () => {
       </div>
       <div className="js-item h5">
         {" "}
-        <span className="">Async/Await: </span> <br />
+        <span className="">Async/Awa: </span> <br />
         
       </div>
     </div>

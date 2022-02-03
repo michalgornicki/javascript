@@ -31,8 +31,15 @@ const Async = () => {
       </div>
       <div className="js-item h5">
         {" "}
-        <span className="">Async/Await: </span> <br />
-        
+        <span className="">Promise: </span> <br />
+        <span className="text-pink">{`const promise = new Promise((resolve, reject) => {`}</span> <br />
+        <span className="text-pink">{`const x = "pegasus";`}</span> <br />
+        <span className="text-pink">{`const y = "unicorn";`}</span> <br />
+        <span className="text-pink">{` if(x === y) {resolve();}`}</span> <br />
+        <span className="text-pink">{` else {reject();}})`}</span> <br />
+        <span className="text-pink">{`promise`}</span> <br />
+        <span className="text-pink">{`.then(() => {console.log('Yes, it is true!');})`}</span> <br />
+        <span className="text-pink">{`.catch(() => {console.log('Sorry, it is false.');});`}</span> <br />
       </div>
     </div>
   );

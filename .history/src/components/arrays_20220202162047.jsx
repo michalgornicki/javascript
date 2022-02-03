@@ -9,7 +9,7 @@ const Arrays = () => {
   const functionOne = () => {console.log("first")}
   const functionTwo = () => {console.log("second")}
 
-  functionOne(functionTwo)
+  functionOne(fu)
 
   return (
     <div className="container">

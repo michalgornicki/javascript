@@ -29,11 +29,6 @@ const Async = () => {
         <span className="text-pink">{`.then(() => {console.log('Yes, it is true!');})`}</span> <br />
         <span className="text-pink">{`.catch(() => {console.log('Sorry, it is false.');});`}</span> <br />
       </div>
-      <div className="js-item h5">
-        {" "}
-        <span className="">Async/Await: </span> <br />
-        
-      </div>
     </div>
   );
 };
