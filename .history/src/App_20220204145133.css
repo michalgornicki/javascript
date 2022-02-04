@@ -12,7 +12,7 @@ body{
 .js-item{
     color:rgb(0, 0, 0);
     font-size: 1.25rem;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     transition: 0.2s;
     padding: 3vh;
     margin-bottom: 4vh!important;
@@ -30,12 +30,15 @@ body{
 }
 
 .text-pink{
+    background-color: rgb(255, 255, 255);
     margin: auto;
-    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: fit-content;
-    color:rgb(229, 125, 255)!important;
-    font-size: 1.5rem;
-    border-radius: 1rem;
+    padding: 1rem;
+    color:rgb(204, 0, 255)!important;
+    font-size: 1rem;
+    border-radius: 2rem;
 }
 
 .link-style{

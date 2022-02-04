@@ -30,11 +30,15 @@ body{
 }
 
 .text-pink{
+    background-color: black;
+    border: 1px solid rgb(229, 125, 255);
     margin: auto;
-    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: fit-content;
+    padding: 1rem;
     color:rgb(229, 125, 255)!important;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 1rem;
 }
 

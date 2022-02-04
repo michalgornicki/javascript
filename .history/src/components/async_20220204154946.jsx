@@ -92,7 +92,7 @@ const Async = () => {
           {`const weatherData = await weather;`} <br />
           {`updatePage(countryData, weatherData);}`} <br />
         </div>{" "}
-        (The word async before a function means this function will always returns a promise. Using async and await gives possibility to wait with execution of code until previous action will finish. This could be also acomplished with promises. Advantage of using async/await over promises is similarity to working with synchronous code.)
+        (Using async and await gives possibility to wait with execution of code until previous action will finish. This could be )
       </div>
     </div>
   );

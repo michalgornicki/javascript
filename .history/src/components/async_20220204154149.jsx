@@ -84,15 +84,15 @@ const Async = () => {
         {" "}
         <div className="">Async / await: </div>
         <div className="text-pink">
-          {`const renderPage = async () => {`} <br />
+          {`async function renderPage() {`} <br />
           {`const country = getCountry();`} <br />
-          {`const weather = getWeather(country.lat, country.lng);`} 
-          <br/> <br/>
-          {`const countryData = await country;`} <br />
-          {`const weatherData = await weather;`} <br />
-          {`updatePage(countryData, weatherData);}`} <br />
+          {`const weather = getWeather(country.lat, country.lng);`} <br> <br />
+          {`promise`} <br />
+          {`.then(result => {console.log('first task is over!')})`} <br />
+          {`.then(result => {console.log('second task is over.')})`} <br />
+          {`.then(result => {console.log('third task is over too!')})`} <br />
         </div>{" "}
-        (The word async before a function means this function will always returns a promise. Using async and await gives possibility to wait with execution of code until previous action will finish. This could be also acomplished with promises. Advantage of using async/await over promises is similarity to working with synchronous code.)
+        (Using this method we can chain many tasks in sequence, one after another)
       </div>
     </div>
   );

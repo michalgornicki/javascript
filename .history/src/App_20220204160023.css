@@ -31,8 +31,8 @@ body{
 
 .text-pink{
     margin: auto;
-    padding: 0.5rem;
     width: fit-content;
+    padding: 1rem;
     color:rgb(229, 125, 255)!important;
     font-size: 1.5rem;
     border-radius: 1rem;
