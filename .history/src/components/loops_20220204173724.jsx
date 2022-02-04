@@ -62,7 +62,7 @@ const Loops = () => {
           {`case z:`} <br /> {`{code}`} <br /> {`break;`} <br />
           <br />
           {`default:`} <br /> {`{code}`} <br />
-        </div>{" "} (Switch gets result of expression and execute code for specific result cases. If none of the cases is fulfilled "default" code is executed.)
+        </div>{" "} (Switch gets result of expression and )
         
       </div>
       <div className="js-item">
