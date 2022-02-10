@@ -53,6 +53,7 @@ const Loops = () => {
         <div className="">{`Switch`}: </div>
         <div className="text-pink">
           {" "}
+          
           {`switch(expression) {`} <br />
           {`case x:`} <br /> {`{code}`} <br /> {`break;`} <br />
           <br />
